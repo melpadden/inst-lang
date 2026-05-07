@@ -1,0 +1,332 @@
+/* ── Reset & base ─────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #0f0f1a;
+  color: #e8e8f0;
+  min-height: 100vh;
+}
+
+/* ── Shared layout helpers ────────────────────────────────────────── */
+.selection-screen,
+.result-screen {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+/* ── Header ───────────────────────────────────────────────────────── */
+.app-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.header-icons {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.25rem;
+}
+
+.app-header h1 {
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  font-weight: 700;
+  background: linear-gradient(135deg, #a78bfa, #60a5fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.75rem;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  color: #9ca3af;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ── Mode selector ────────────────────────────────────────────────── */
+.mode-selector {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.prompt {
+  font-size: 1.1rem;
+  color: #c4b5fd;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.mode-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mode-btn {
+  padding: 0.75rem 1.75rem;
+  border-radius: 2rem;
+  border: 2px solid #4b5563;
+  background: #1e1e2e;
+  color: #d1d5db;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mode-btn:hover {
+  border-color: #7c3aed;
+  color: #fff;
+}
+
+.mode-btn.active {
+  border-color: #7c3aed;
+  background: #2d1b69;
+  color: #fff;
+  box-shadow: 0 0 0 3px rgba(124,58,237,0.25);
+}
+
+/* ── Item grid ────────────────────────────────────────────────────── */
+.item-selector {
+  text-align: center;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.item-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 1rem 0.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid #374151;
+  background: #1e1e2e;
+  color: #d1d5db;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.item-btn:hover {
+  border-color: #60a5fa;
+  color: #fff;
+}
+
+.item-btn.active {
+  border-color: #60a5fa;
+  background: #1e3a5f;
+  color: #fff;
+  box-shadow: 0 0 0 3px rgba(96,165,250,0.25);
+}
+
+.item-emoji {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.item-name {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* ── Go button ────────────────────────────────────────────────────── */
+.go-btn {
+  padding: 0.85rem 2.25rem;
+  border-radius: 2rem;
+  border: none;
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+}
+
+.go-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.go-btn:not(:disabled):hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* ── Back button ──────────────────────────────────────────────────── */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 2rem;
+  border: 2px solid #4b5563;
+  background: transparent;
+  color: #9ca3af;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 1.75rem;
+}
+
+.back-btn:hover {
+  border-color: #7c3aed;
+  color: #fff;
+}
+
+/* ── Comparison card ──────────────────────────────────────────────── */
+.comparison-card {
+  background: #1a1a2e;
+  border: 1px solid #2d2d4e;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+/* ── Pair columns ─────────────────────────────────────────────────── */
+.pair-columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.pair-column {
+  flex: 1;
+  padding: 2rem 1.75rem;
+}
+
+.instrument-col {
+  background: linear-gradient(160deg, #1f2937, #111827);
+  border-right: 1px solid #2d2d4e;
+}
+
+.language-col {
+  background: linear-gradient(160deg, #1e1b4b, #111827);
+}
+
+.versus-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 1.5rem;
+  color: #6b7280;
+  padding: 0 0.5rem;
+  flex-shrink: 0;
+}
+
+.pair-emoji {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.pair-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.pair-description {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.trait-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.trait-badge {
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: rgba(255,255,255,0.08);
+  color: #c4b5fd;
+  border: 1px solid rgba(196,181,253,0.25);
+}
+
+/* ── Comparisons & why-love ───────────────────────────────────────── */
+.comparisons-section,
+.why-love {
+  padding: 1.5rem 2rem;
+  border-top: 1px solid #2d2d4e;
+}
+
+.comparisons-section h3,
+.why-love h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #60a5fa;
+  margin-bottom: 0.85rem;
+}
+
+.comparisons-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.comparisons-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: #d1d5db;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.comparisons-list li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  color: #7c3aed;
+  font-size: 0.75rem;
+}
+
+.why-love p {
+  color: #d1d5db;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .pair-columns {
+    flex-direction: column;
+  }
+
+  .versus-badge {
+    align-self: center;
+    padding: 0.5rem 0;
+    transform: rotate(90deg);
+  }
+
+  .instrument-col {
+    border-right: none;
+    border-bottom: 1px solid #2d2d4e;
+  }
+
+  .comparisons-section,
+  .why-love {
+    padding: 1.25rem 1.25rem;
+  }
+}
