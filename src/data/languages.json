@@ -1,0 +1,218 @@
+{
+  "languages": [
+    {
+      "name": "Python",
+      "emoji": "🐍"
+    },
+    {
+      "name": "JavaScript",
+      "emoji": "🟨",
+      "description": "The language of the web, running in every browser on the planet. JavaScript is everywhere — from interactive web pages to servers (Node.js), mobile apps, and even desktop software.",
+      "traits": ["Ubiquitous", "Flexible", "Accessible", "Dynamic"],
+      "comment": "Cool, noisy, everyone wants to use it, but it's hard to achieve anything noteworthy without accessories to make it more interesting. Basic practitioners tend to create an awful mess, but also it is relatively easy to impress people with some intermediate-level work.  High-level practitioners call themselves rock stars, tend to be young and have interesting hair. If you want to get noticed quickly get good at this.",
+      "headline": "JavaScript is the language of the web, and the language of the JavaScript runtime.",
+      "role": "The language of the web, running in every browser on the planet.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "C++",
+      "emoji": "⚙️"
+    },
+    {
+      "name": "Rust",
+      "emoji": "🦀"
+    },
+    {
+      "name": "Ruby",
+      "emoji": "💎"
+    },
+    {
+      "name": "Java",
+      "emoji": "☕",
+      "description": "An object-oriented, platform-independent language that has powered enterprise software for nearly three decades. Java is verbose but rock-solid, and runs on billions of devices.",
+      "traits": ["Verbose", "Reliable", "Enterprise-grade", "Time-tested"],
+      "comment": "Old school, feels quite warm and earthy, reliable, safe, quite difficult to truly master. Beloved of middle-aged men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Java is the language of the enterprise, and the language of the JVM.",
+      "role": "Enterprise-grade, platform-independent language that has powered enterprise software for nearly three decades.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "Go",
+      "emoji": "🐹",
+      "description": "A compiled language created at Google for building fast, reliable, and simple software. Go is deliberately minimal — it favours clarity and speed over complexity.",
+      "traits": ["Simple", "Fast", "Reliable", "Minimalist"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Go is the language of the cloud, and the language of the Go runtime.",
+      "role": "Compiled language created at Google for building fast, reliable, and simple software.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "TypeScript",
+      "emoji": "🔷",
+      "description": "A typed superset of JavaScript that compiles to plain JS. TypeScript adds static types to bring structure and tooling to JavaScript projects of any size.",
+      "traits": ["Structured", "Safe", "Versatile", "Scalable"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "TypeScript is the language of the web, and the language of the TypeScript runtime.",
+      "role": "Typed superset of JavaScript that compiles to plain JS.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "PHP",
+      "emoji": "🐘",
+      "description": "A server-side scripting language that is used to create dynamic web pages. PHP is widely used for web development and is particularly popular for building web applications.",
+      "traits": ["Server-side", "Dynamic", "Web-based", "Object-oriented"],
+      "comment": "Old school, feels quite warm and earthy, reliable, safe, quite difficult to truly master. Beloved of middle-aged men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "PHP is the language of the web, and the language of the PHP runtime.",
+      "role": "Server-side scripting language that is used to create dynamic web pages.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "SQL",
+      "emoji": "🔤",
+      "description": "A domain-specific language that is used to manage relational databases. SQL is used to create, modify, and query databases.",
+      "traits": ["Relational", "Structured", "Declarative", "Domain-specific"],
+      "comment": "Old school, feels quite warm and earthy, reliable, safe, quite difficult to truly master. Beloved of middle-aged men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "SQL is the language of the database, and the language of the SQL runtime.",
+      "role": "Domain-specific language that is used to manage relational databases.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "Swift",
+      "emoji": "🐦",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    }
+    {
+      "name": "Kotlin",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "Scala",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "Haskell",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "Erlang",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "Elixir",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "Dart",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    { 
+      "name": "C#",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "COBOL",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "Almost nothing happens in the Real World without this. Boring, does one thing really well. People are always trying to find ways to make it more interesting but everyone else wishes they would just shut the fuck up and get on with it. Practitioners tend to be a bit bitter by nature, but tell good war stories, and earn way more money and get more attention than you might think.",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "FORTRAN",
+      "emoji": "�",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "Been around ages, fundamental building blocks of the craft, similar to previous entry but much more interesting. Practitioners tend to be lunatics with wild hair and sordid, chaotic personal lives.",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "LISP",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+    {
+      "name": "Prolog",
+      "emoji": "🐘",
+      "description": "A general-purpose, high-level programming language that is used to build iOS and macOS applications. Swift is a modern, safe, and expressive language that is easy to learn and use.",
+      "traits": ["Modern", "Safe", "Expressive", "Easy-to-learn"],
+      "comment": "New school, feels quite cool and modern, fast, reliable, quite difficult to truly master. Beloved of young men with beards who bore you at parties. Capable of some truly great things in the right hands. Can be used almost everywhere. Really good practitioners tend to have a certain kind of elitism about them. ",
+      "headline": "Swift is the language of the iOS and macOS, and the language of the Swift runtime.",
+      "role": "General-purpose, high-level programming language that is used to build iOS and macOS applications.",
+      "practitioners": "Really good practitioners tend to have a certain kind of elitism about them. ",
+      "whyYoullLoveBoth": "If you love the piano's logical layout and expressive range, Python's elegant structure and broad applicability will feel instantly familiar. Both reward curiosity and grow with you as you advance."
+    },
+  ]
+}
